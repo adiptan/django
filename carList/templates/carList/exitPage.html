@@ -1,0 +1,7 @@
+{% extends 'carList/index.html' %}
+{% block main_section %}
+  <div class="form-section">
+    <h2>Вы успешно вышли</h2>
+    Вы можете <a href="{% url 'start-page' %}">войти </a>свой аккаунт или <a href="{% url 'reg' %}">зарегистрироваться.</a> 
+  </div>
+{% endblock main_section %}
